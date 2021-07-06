@@ -4,7 +4,7 @@ name: publish
 
 trigger:
   branches:
-    - drone_CI
+    - main
   event:
     - push
 
@@ -16,6 +16,6 @@ steps:
         from_secret: docker_username
       password:
         from_secret: docker_password
-      repo: mitant127/FlaskTest_1
+      repo: mitant/FlaskTest
       tags: droneCI
       dockerfile: ./dockerfile
