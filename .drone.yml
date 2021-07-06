@@ -16,6 +16,6 @@ steps:
         from_secret: docker_username
       password:
         from_secret: docker_password
-      repo: mitant/FlaskTest
-      tags: droneCI
+      repo: mitant/flask_test
+      tags: droneci
       dockerfile: ./dockerfile
